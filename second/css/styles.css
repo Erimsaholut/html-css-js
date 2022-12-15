@@ -1,0 +1,40 @@
+body {
+  background-color: #F0DBDB;
+  background-image: url("/Users/erimsaholut/Desktop/Web Development/CSS - My Site/Images/giphy.gif");
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  margin: 15px auto 15px;
+  font-family: 'Syne Mono', monospace;
+}
+h2{
+  margin: 25px auto 15px;
+}
+
+p {
+  font-weight: 600;
+}
+
+.smaller {
+  height: 180px;
+  width: 180px
+}
+
+.bolder {
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.links {
+  margin-left: 90%;
+}
+
+.skill-row{
+  margin: 30px auto;
+  width: 50%;
+}
