@@ -1,0 +1,16 @@
+h1,h2{
+    color: blueviolet;
+}
+
+.box > p{
+    color: firebrick;
+}
+.box li{
+    color: blue;
+}
+h1#title.big{
+    color: red;
+}
+h1#title.big.heading{
+    color:palegreen;
+}
