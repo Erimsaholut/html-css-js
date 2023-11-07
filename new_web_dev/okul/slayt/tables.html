@@ -11,6 +11,8 @@ caption{
 </style>
 <body>
 
+<a href="#section-2">go to second side</a>
+
 <h2>A basic HTML table</h2>
 
 <table style="width:100%">
@@ -104,6 +106,7 @@ caption{
   </tr>
 </table>
   
+<h1 id="section-2">bölm 2</h1>
 
 <br><br><br><br>
 
@@ -209,15 +212,74 @@ caption{
   </tr>
 </table>
 
+<br><br><br><br><br>
 
+<table border="5" cellspacing="10" cellpadding="5">
+  <tr>
+<td colspan="2">1.satır ve 1.sutun</td>
+  </tr>
+
+  <tr>
+    <td colspan="2">2.satır ve 1.sutun</td>
+  </tr>
+
+
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+
+
+  <tr>
+    <td>3</td>
+    <td>4</td>
+  </tr>
 
 
 </table>
 
+<br><br><br><br><br><br>
 
+<h1>Sanal Sınıf</h1>
 
+<table style="border: 0px;">
+  <tr>
+    <td><label for="fname">Kullanici Adi </label></td>
+    <td><input type="text" name="fname" id=""></td>
+  </tr>
 
+  <tr>
+    <td><label for="ePosta">E-Posta Adresi</label></td>
+    <td><input type="text" name="ePosta" id=""></td>
+  </tr>
+  <tr>
+    <td colspan="2"><label for="message">İlertmek istediğiniz mesaji giriniz: </label></td>
+  </tr>
+</table>
+<input type="text" name="message" height="400px">
 
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<form action="" target="_blank">
+  <label for="fname">Kullanıcı Adı: </label>
+  <input type="text" id="fname" name="fname" value=
+  ""><br>
+  <label for="eposta">E posta adresi:</label>
+  <input type="text" id="eposta" name="eposta" value=
+  ""><br><br>
+  <label for="mesaj">İletmek istediğiniz mesaj varsa aşağıdaki alanı
+  kullanınız.</label><br>
+  <textarea name="message" rows="5" cols="50"></textarea>
+  <br>
+  <input type="checkbox" id="pascal" name="pascal" value="Pascal">
+  <label for="pascal"> Pascal</label>
+  <input type="checkbox" id="is" name="is" value="is">
+  <label for="is"> İşletim Sistemi</label>
+  <input type="checkbox" id="Html" name="Html" value="Html">
+  <label for="Html"> HTML</label> <br>
+  <input type="submit" value="send">
+  <input type="reset" value="reset">
+  </form>
 
 
 </body>
