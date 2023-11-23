@@ -1,0 +1,32 @@
+h2{
+    color:red;
+    background-color: aliceblue;
+}
+
+p{
+    background-color: gainsboro;
+}
+body{
+    background-image: url('ankara.jpg');
+    background-repeat: repeat-x;
+    background-position: top;
+}
+.ortala{
+background-color: yellowgreen;
+}
+.italic{
+    font-style: italic;
+
+}
+.marginle{
+    margin-left: 12em;
+}
+
+h3{
+    background-color:tan;
+    border: 10px solid blue;
+    border-style: dotted;
+    padding: 0.6em;
+    margin-right: 12em;
+
+}
